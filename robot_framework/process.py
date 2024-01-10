@@ -83,7 +83,7 @@ else:
 
 # Definerer variable, som skal sende med sidste API-kald:
 ID = str(uuid.uuid4())
-ConfigDate = '2024-01-09T09:35:47Z'
+ConfigDate = '2024-01-10T09:35:47Z'
 NovaUnitId = '0c89d77b-c86f-460f-9eaf-d238e4f451ed'
 UnitNumber = '70528'
 UnitName = 'Plan og Byggeri'
@@ -152,5 +152,4 @@ else:
 
 
 def process(orchestrator_connection: OrchestratorConnection) -> None:
-   """Do the primary process of the robot."""
-orchestrator_connection.log_trace("Running process.")
+    orchestrator_connection.log_trace("Running process.")
